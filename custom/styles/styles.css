@@ -22,7 +22,7 @@ body{
     margin-inline-end: 0px;
     direction: ltr;
     font-size: 0.875em;
-    font-size: calc(1em * 0.875);
+    font-size: calc(1em * 0.94);
     line-height: 1.6;
     color: #202122;
    }
@@ -30,6 +30,13 @@ body{
 .hidden{
          display:none;
        }
+.pointer{
+         cursor:pointer;
+        }
+.padding{
+         padding:1rem;
+         background:#f5f3f3;
+        }
 img{
       display:none;
      }
