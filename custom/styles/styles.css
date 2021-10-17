@@ -41,6 +41,9 @@ body{
      background:#00000008;
      padding:1rem;
     }
+img{
+    max-width:33.0347%;
+   }
 .line{
       display: inline;
      }
