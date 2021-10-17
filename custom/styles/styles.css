@@ -38,5 +38,7 @@ body{
          background:#f5f3f3;
         }
 img{
-      display:none;
+     }
+.line{
+      display: inline;
      }
