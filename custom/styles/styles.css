@@ -77,9 +77,9 @@ img{
          }
 #ImgModal span{
               color: white;
-              position: absolute;
+              position: fixed;
               top: 5px;
-              right: 9px;
+              right: 25px;
               font-size: 1.3rem;
               }
 
