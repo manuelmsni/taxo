@@ -44,6 +44,9 @@ body{
 img{
     width:33%;
     max-width:100%;
+    vertical-align:middle;
+    padding: 0;
+    margin: 0;
    }
 @media (max-width: 941px) {
 img{
@@ -60,3 +63,36 @@ img{
 .line{
       display: inline;
      }
+#ImgModal{
+          display:none;
+          z-index:9999;
+          position:fixed;
+          top: 0;
+          left: 0;
+          height:100%;
+          width:100%;
+          background:#000000fa;
+          scroll-behavior: smooth;
+          overflow-x: scroll;
+         }
+#ImgModal span{
+              color: white;
+              position: absolute;
+              top: 5px;
+              right: 9px;
+              font-size: 1.3rem;
+              }
+
+#ImgModal p{
+            color:white;
+            padding: 5%;
+            padding-top: 0;
+            margin: 0;
+           }
+#ImgModal img{
+            width: 90%;
+            max-width: 100%;
+            vertical-align: middle;
+            padding: 5%;
+            margin: 0;
+           }
