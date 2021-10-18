@@ -1,6 +1,18 @@
 body{
      background: #E5E5E5;
     }
+.header{
+         max-width:950px;
+         margin-left:auto;
+         margin-right:auto;
+         margin-bottom: 1rem;
+         padding: 1rem;
+         padding-left: 2rem;
+         padding-right: 2rem;
+         background: #fff;
+         border: solid 1px #c8ccd1;
+         box-shadow: 0 1px 1px rgb(0 0 0 / 15%);
+        }
 .content{
          max-width:950px;
          margin-left:auto;
@@ -103,4 +115,19 @@ img{
            }
 li{
    padding-top: 1rem;
+  }
+.esquema div{
+             border-left:solid 1px black;
+             margin-left:2px;
+             padding-left:13px;
+            }
+.esquema .im{
+             margin-top: 1rem;
+            }
+.esquema .im p{
+               padding-bottom: 1rem;
+               margin: 0;
+              }
+.g{
+  color:grey!important;
   }
